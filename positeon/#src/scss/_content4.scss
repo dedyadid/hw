@@ -1,0 +1,84 @@
+.advertising {
+    margin-top: 113px;
+    margin-bottom: 97px;
+}
+
+.advertising__box {
+    flex-direction: row;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.advertising__title {
+    position: absolute;
+    top: 146px;
+    left: 39px;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.dark__mask {
+    position: absolute;
+    width: 767px;
+    height: 529px;
+    background: url(../img/mask.png);
+}
+
+.big__title {
+    font-size: 54px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.pink__word {
+    color: #f16d7f;
+    margin-left: 10px;
+}
+
+.smal__title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.advertising__right {
+    flex-direction: column;
+    width: 373px;
+    background: #222224;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin-top: 38px;
+
+    &:first-child {
+        margin: 0;
+    }
+}
+
+.icon__box {
+    margin-right: 34px;
+}
+
+.text__box {
+    flex-direction: column;
+    color: #fbfbfb;
+    max-width: 236px;
+    letter-spacing: 0.03em;
+
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    p {
+        font-weight: 300;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+
+}
+
+// контент 4 закрыт

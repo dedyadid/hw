@@ -1,0 +1,86 @@
+.section-1 {
+    flex-grow: 1;
+    justify-content: center;
+
+    .menu {
+        position: relative;
+        z-index: 0;
+        .link {
+            padding: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #222222;
+            line-height: 26px;
+            text-transform: uppercase;
+            transition: .3s;
+            box-sizing: border-box;
+            border-bottom: 3px solid #fff;
+
+
+            &:hover {
+                border-bottom-color: #ef5b70;
+            }
+        }
+    }
+}
+
+.menu__li {
+
+    &:hover {
+        .drop {
+            display: flex;
+        }
+    }
+}
+
+.drop {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding: 12px 20px;
+    background: #fff;
+    border-radius: 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.drop__col {
+    
+    &:not(:last-child) {
+        margin-right: 47px;
+    }
+    
+    h3 {
+        width: 234px;
+        color: #232323;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        border-bottom: 1px solid #e8e8e8;
+        padding: 8px 0;
+        margin-bottom: 8px;
+    }
+    .big {
+
+        height: 250px;
+        overflow: auto;
+    }
+    .drop__ul {
+        margin-bottom: 8px;
+        li {
+            padding: 8px;
+        }
+
+        .link__drop {
+            color: #646464;
+            letter-spacing: 0.03em;
+            &:hover {
+                color: #ef5b70;
+            }
+        }
+
+    }
+
+}
+
+// контент закрыт

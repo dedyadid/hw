@@ -1,0 +1,337 @@
+.secton__item {
+
+
+    background: #f7f7f7;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 100px;
+
+    .slids {
+        position: relative;
+        min-height: 724px;
+        justify-content: center;
+    }
+
+    .slid {
+        height: 724px;
+        width: 524px;
+        background: url(../img/singlPageWomen.jpg);
+        position: absolute;
+
+    }
+
+
+    .controls {
+        width: 100vw;
+        position: absolute;
+        top: 40px;
+    }
+
+
+    .slid__left,
+    .slid__right {
+        width: 700px;
+        height: 700px;
+        align-content: center;
+        justify-content: start;
+
+        &:hover {
+            div {
+                opacity: 1;
+            }
+        }
+
+        div {
+            height: 47px;
+            width: 47px;
+            background-color: #ccc;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.5;
+        }
+    }
+
+    .slid__right {
+        justify-content: flex-end;
+    }
+
+
+
+}
+
+
+.secton__item2 {
+
+
+    .containerr {
+        padding-top: 73px;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: -90px;
+        background: #fff;
+        border: 1px solid #eaeaea;
+        height: fit-content;
+
+        h3 {
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #f16d7f;
+            text-align: center;
+            line-height: 24px;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 900;
+            color: #4d4d4d;
+            text-align: center;
+            line-height: 24px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+
+        .stars2 {
+            margin-bottom: 30px;
+            display: flex;
+        }
+
+        p {
+            color: #5e5e5e;
+            text-align: center;
+            line-height: 24px;
+            max-width: 625px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .slizer2 {
+        width: 150px;
+        height: 1px;
+        margin-bottom: 20px;
+
+        .pinkslizer2 {
+            height: 3px;
+            width: 50px;
+            margin-left: 50px;
+
+            &::before,
+            &::after {
+                display: none;
+            }
+        }
+    }
+
+    .materials__designer {
+        width: 400px;
+        margin-bottom: 40px;
+
+        .materials,
+        .designer {
+            font-weight: bold;
+            text-align: center;
+            line-height: 24px;
+            text-transform: uppercase;
+            padding-left: 40px;
+
+            .spans1 {
+                color: #b9b9b9;
+            }
+
+            .spans2 {
+                color: #2f2f2f;
+            }
+        }
+    }
+
+    .price__itemc {
+        font-size: 24px;
+        font-weight: bold;
+        color: #ef5b70;
+        margin-bottom: 45px;
+    }
+
+    .hr {
+        height: 1px;
+        width: 642px;
+        background-color: #ef5b70;
+        border: 1px solid #eaeaea;
+        margin-bottom: 70px;
+    }
+
+    .sort2 {
+        height: 61px;
+        width: 538px;
+        margin: 0;
+        background: none;
+    }
+
+    .box__drop {
+        flex-direction: column;
+
+
+    }
+
+    .droped2 {
+        justify-content: space-between;
+        margin: 16px 0px 0px 0px;
+        height: 35px;
+        width: 144px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        color: #bcbcbc;
+
+        .dropt__window {
+            flex-wrap: nowrap;
+        }
+
+        .droped__link {
+            padding: 10px;
+        }
+
+        .sub__name {
+            width: 120px;
+            flex-direction: column;
+        }
+    }
+
+
+
+
+
+
+
+
+    .bttn {
+        margin-top: 28px;
+        margin-bottom: 130px;
+        height: 55px;
+        width: 537px;
+        border: 1px solid #f16d7f;
+        transition: .3s;
+
+        .item__bu2 {
+            justify-items: center;
+            align-items: center;
+            margin: 0 auto;
+            color: #f16d7f;
+            font-weight: bold;
+            font-size: 16px;
+
+            img {
+                margin-right: 20px;
+            }
+        }
+
+        &:hover {
+            background: lighten($color: #f16d7f, $amount: 10%);
+        }
+    }
+}
+
+
+.secton__item3 {
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+
+        h2 {
+            font-size: 24px;
+            font-weight: bolder;
+            color: #4d4d4d;
+            text-align: center;
+            line-height: 20px;
+            text-transform: uppercase;
+            margin-bottom: 72px;
+        }
+    }
+}
+
+
+.forrm {
+    min-height: fit-content;
+    flex-direction: column;
+}
+.columnchoys {
+    flex-direction: column;
+    justify-items: start;
+
+
+    .details3 {
+        height: 35px;
+        width: 144px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        margin-top: 20px;
+        margin-left: 0;
+        
+
+        .summary3 {
+            height: 35px;
+            width: 130px;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 10px;
+
+        }
+
+        .title__droped2 {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+        div {
+            max-width: 50px;
+        }
+        .sort__color {
+            width: 10px;
+            height: 10px;
+            background: #f16d7f;
+            outline: 1px solid #ccc;
+
+            .tipe__serch {
+                margin-left: 15px;
+            }
+        }
+        .sort__name {
+            border: none;
+        }
+        .dropt__window {
+            height: fit-content;
+            width: fit-content;
+            position: relative;
+            z-index: 1;
+            .droped__link {
+                width: 60px !important;
+                margin: 15px;
+                padding: 5px;
+            }
+            .droped__link:nth-child(2) {
+                .sort__color {
+                    background: #000;
+                }
+            }
+
+            .droped__link:nth-child(3) {
+                .sort__color {
+                    background: green;
+                }
+            }
+
+            .droped__link:nth-child(4) {
+                .sort__color {
+                    background: grey;
+                }
+            }
+
+            .droped__link:nth-child(5) {
+                .sort__color {
+                    background: #fff;
+                }
+            }
+        }
+    }
+}
+
+// страница товара закрыта

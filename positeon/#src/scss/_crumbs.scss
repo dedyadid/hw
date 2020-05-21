@@ -1,0 +1,54 @@
+
+.section__pages {
+
+    min-height: 148px;
+    background-color: #f8f3f4;
+
+    .arrivals {
+        font-size: 24px;
+        font-weight: 900;
+        color: #f16d7f;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    .list__breadcrumbs {
+
+        font-size: 14px;
+        font-weight: 300;
+        color: #636363 !important;
+        line-height: 20px;
+        text-transform: uppercase;
+        margin-right: 10px;
+
+        &:last-child {
+
+            margin: 0;
+
+            .link__pages {
+                color: #f16d7f;
+                font-weight: bold;
+            }
+
+            .dash__link {
+                display: none;
+            }
+        }
+    }
+
+    .dash__link {
+        margin-left: 3px;
+    }
+
+    .breadcrumbs__link {
+
+        transition: .3s ease-in-out;
+
+        &:hover {
+            color: #000;
+            font-weight: bold;
+        }
+    }
+
+}
+// крошки закрыты 

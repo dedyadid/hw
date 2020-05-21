@@ -1,0 +1,67 @@
+.shop {
+    margin-top: 98px;
+}
+
+.left__column,
+.right__column {
+    flex-direction: column;
+}
+
+.right__column {
+    margin-left: 20px;
+}
+
+.link__shop {
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.shope__href {
+    flex-direction: column;
+
+    img {
+        transition: 1s ease-in-out;
+        position: relative;
+        z-index: -1;
+    }
+}
+
+.lable__item {
+    flex-direction: column;
+    height: 82px;
+    width: fit-content;
+    background: #fff;
+    position: absolute;
+    top: 26px;
+    left: 0;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: nowrap;
+    &:hover {
+        
+        visibility: visible;
+    }
+}
+
+.offer {
+    font-size: 18px;
+    font-weight: 900;
+    color: #222222;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.tipe {
+    font-size: 30px;
+    font-weight: 900;
+    color: #f16d7f;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+// контент 1 зкрыт
+
+
+
+

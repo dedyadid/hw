@@ -1,0 +1,338 @@
+.breadcrumbs__link  {
+    color: #636363;
+}
+
+.secction__basket {
+
+    .basket__box {
+        flex-direction: column;
+        .title__boxss {
+            .rowtitle {
+                margin-top: 90px;
+                border-bottom: 1px solid #eaeaea;
+
+                .columnone2,
+                .columnone3,
+                .columnone4,
+                .columnone5,
+                .columnone6 {
+                    margin-left: 80px;
+                    width: 60px;
+                }
+
+                .columnone1 {
+                    width: 400px;
+                }
+
+                .columnone2 {
+                    width: 80px;
+                }
+
+                .columnone {
+                    padding-bottom: 20px;
+                }
+
+            }
+
+        }
+
+        .row__itembuy {
+            margin-top: 20px;
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #eaeaea;
+
+            .row1,
+            .row2,
+            .row3,
+            .row4,
+            .row5,
+            .row6 {
+                height: 50px;
+                align-items: center;
+                justify-content: center;
+                margin-top: 25px;
+                width: 60px;
+                margin-left: 85px;
+            }
+
+            .row1 {
+                height: 115px;
+                min-width: 400px;
+                margin: 0;
+                justify-content: start;
+
+                .img__box {
+
+                    img {
+                        height: 115px;
+                        width: 100px;
+                    }
+                }
+
+                .about__iembox {
+                    margin-left: 20px;
+                    flex-direction: column;
+                    height: 115px;
+
+                    h2 {
+                        flex-basis: 30%;
+                        margin-top: 10px;
+                    }
+
+                    span {
+                        margin-top: 10px;
+
+                        .grays {
+                            margin: 0;
+                        }
+                    }
+                }
+
+                .row2 {
+                    width: 80px;
+                }
+
+            }
+        }
+
+        .htitle {
+            color: #222222;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .grays {
+            margin: 0;
+            padding-left: 10px;
+            font-size: 13px;
+            font-weight: 300;
+            color: #6f6e6e;
+        }
+    }
+    .hovemane {
+        height: 30px;
+        width: 54px;
+        border: 1px solid #eaeaea;
+
+        &::placeholder {
+            padding-left: 20px;
+        }
+    }
+    .action {
+        height: 15px;
+        width: 15px;
+        font-size: 16px;
+        color: #c0c0c0;
+        border-radius: 50%;
+        transition: .4s;
+
+        &:hover {
+            color: #f16d7f;
+        }
+    }
+    .clear__form {
+        margin-bottom: 65px;
+
+        .clear,
+        .cont {
+            height: 50px;
+            width: 235px;
+            border: 1px solid #eaeaea;
+            font-size: 14px;
+            font-weight: bold;
+            color: #4a4a4a;
+            text-transform: uppercase;
+        }
+
+        .clear:hover {
+            background: lighten($color: red, $amount: 20%);
+            transition: .5s;
+        }
+
+        .cont:hover {
+            background: lighten($color: #f16d7f, $amount: 20%);
+            transition: .5s;
+        }
+    }
+    .shipping__basket {
+        align-items: flex-start;
+        margin-bottom: 80px;
+    }
+    .graybord {
+        border: 1px solid #eaeaea;
+        height: 45px;
+        width: 355px;
+        margin-bottom: 25px;
+        input {
+            width: 330px;
+            margin-left: 18px;
+            &::placeholder {
+                font-size: 13px;
+                font-weight: 300;
+                color: #b1b1b1;
+            }
+        }
+    }
+    .fierstshiping {
+        flex-direction: column;
+
+        h2 {
+            margin-bottom: 22px;
+        }
+
+        form {
+            flex-direction: column;
+        }
+
+        .fiersinput {
+            height: 45px;
+            width: 355px;
+            border: 1px solid #eaeaea;
+            margin-bottom: 20px;
+        }
+        .quote {
+            height: 35px;
+            width: 100px;
+            text-transform: uppercase;
+            font-size: 11px;
+            font-weight: bold;
+            color: #4a4a4a;
+            background: none;
+            border: 1px solid #eaeaea;
+
+            &:hover {
+                background: #ccc;
+                transition: .6s;
+            }
+        }
+
+        .fiersinput {
+            &::placeholder {
+                font-size: 13px;
+                font-weight: 300;
+                color: #b1b1b1;
+                padding-left: 18px;
+            }
+        }
+
+    }
+    .shipping__basket {
+        min-height: 300px;
+        .side__ship {
+            flex-direction: column;
+
+            h2 {
+                font-size: 16px;
+                font-weight: bold;
+                color: #222222;
+                text-transform: uppercase;
+            }
+        }
+        .midlshipeng {
+            flex-direction: column;
+
+            h2 {
+                margin-bottom: 28px;
+            }
+
+            p {
+                margin-bottom: 24px;
+            }
+
+            .midle {
+                flex-direction: column;
+
+                input {
+                    background-color: #ffffff;
+                    margin-left: 17px;
+
+                    &::placeholder {
+                        font-size: 13px;
+                        font-weight: 300;
+                        color: #b1b1b1;
+                    }
+                }
+
+                .midlebtn {
+                    height: 35px;
+                    width: 118px;
+                    background: none;
+                    border: 1px solid #eaeaea;
+                    font-size: 11px;
+                    font-weight: bold;
+                    color: #4a4a4a;
+                    text-transform: uppercase;
+                    justify-content: center;
+
+                    &:hover {
+                        background: #ccc;
+                        transition: .6s;
+                    }
+                }
+            }
+        }
+        .side__shipgry {
+            height: 214px;
+            width: 360px;
+            background-color: #f5f3f3;
+            padding: 40px;
+        }
+
+        .subtotal {
+            font-size: 11px;
+            color: #4a4a4a;
+            justify-content: flex-end;
+
+            .subprice {
+                margin-left: 20px;
+            }
+        }
+        .globltotal {
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: bold;
+            justify-content: flex-end;
+            margin-top: 15px;
+
+            .globlprice {
+                color: #f16d7f;
+                margin-left: 20px;
+
+            }
+            .globlt {
+                color: #222;
+            }
+        }
+        .gray__line {
+            height: 1px;
+            width: 275px;
+            background-color: #e2e2e2;
+            margin-top: 22px;
+        }
+        .checkout {
+            margin-top: 17px;
+            height: 50px;
+            width: 273px;
+            background-color: #f16d7f;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+                span {
+                    font-size: 18px;
+                    transition: .4s ease-in-out;
+                }
+            }
+
+            span {
+                font-size: 16px;
+                font-weight: bold;
+                color: #ffffff;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+// корзина заккрыта

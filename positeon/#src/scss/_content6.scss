@@ -1,0 +1,64 @@
+.about__us {
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    flex-direction: column;
+    margin: 38px;
+
+    &1 {
+        flex-wrap: nowrap;
+
+        .text__about{
+
+            overflow: auto;
+        }
+    }
+}
+
+
+
+.text__about {
+
+    height: 190px !important;
+    max-width: 430px;
+    overflow: hidden;
+
+    p {
+        margin: 10px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #898989;
+        letter-spacing: 0.03em;
+        line-height: 22px;
+    }
+}
+
+
+.title__block {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f16d7f;
+    letter-spacing: 0.03em;
+    line-height: 59px;
+    margin: 0;
+}
+
+.menu__block {
+
+    li>a {
+        font-size: 16px;
+        color: #898989;
+        letter-spacing: 0.03em;
+        line-height: 40px;
+        transition: .3s;
+
+        &:hover {
+            color: #f16d7f;
+        }
+    }
+}
+
+// контент 6 закрыт

@@ -1,0 +1,181 @@
+.section__check {
+
+    .container {
+        margin-top: 90px;
+        margin-bottom: 100px;
+
+        .checkout {
+
+            flex-direction: column;
+
+            details {
+                padding-bottom: 20px;
+            }
+
+            summary {
+                cursor: pointer;
+                border-bottom: 1px solid #e8e8e8;
+                display: block;
+                font-size: 16px;
+                font-weight: bold;
+                color: #222222;
+                text-transform: uppercase;
+                padding-bottom: 20px;
+                width: 1140px;
+            }
+
+            summary::-webkit-details-marker {
+                display: none;
+            }
+
+            summary::before {
+                content: '';
+            }
+
+            details[open]>summary::before {
+                content: '';
+            }
+
+            label:hover {
+                transform: scale(1.1);
+                transition: .6s ease-in-out;
+            }
+            .checkbox {
+                position: absolute;
+                z-index: -1;
+                opacity: 0;
+            }
+
+            .checkbox+label {
+                position: relative;
+                padding: 0 0 0 20px;
+                cursor: pointer;
+            }
+
+            .checkbox+label:after {
+                content: '';
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 15px;
+                height: 15px;
+                background: #FFF;
+                border: 2px solid #555;
+                border-radius: 50%;
+            }
+
+            .checkbox:checked+label:after {
+                content: '';
+                background: url(../img/Ellipse.jpg) #fff center no-repeat;
+                width: 15px;
+                height: 15px;
+                border: 2px solid #555;
+            }
+
+
+
+
+            .window__reg {
+                margin-top: 40px;
+                align-items: start;
+                border-bottom: 1px solid #e8e8e8;
+
+            }
+
+            .left,
+            .right {
+
+                flex-direction: column;
+                margin-left: 35px;
+
+                h3,
+                .label {
+                    font-size: 13px;
+                    color: #222222;
+                    text-align: right;
+                    text-transform: uppercase;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    font-size: 13px;
+                    color: #b3b2b2;
+                    line-height: 20px;
+                    margin-bottom: 15px;
+                }
+                .radio {
+                    margin: 5px 0;
+                }
+                button {
+                    background: none;
+                    height: 50px;
+                    width: 180px;
+                    border: 1px solid #eaeaea;
+                    font-weight: bold;
+                    color: #4a4a4a;
+                    text-transform: uppercase;
+                    margin: 40px 0;
+                    transition: .3s;
+                    &:hover {
+                        background: #000;
+                        color: #fff;
+
+                    }
+                }
+            }
+
+            .right {
+                flex-direction: column;
+                margin-left: 335px;
+                .pas {
+                    margin-top: 25px;
+                }
+                div {
+                    height: 45px;
+                    width: 390px;
+                    background-color: #ffffff;
+                    border: 1px solid #eaeaea;
+
+                    input {
+                        width: 320px;
+                        margin-left: 20px;
+                    }
+                }
+
+                .notbord {
+                    border: none;
+                    width: 400px;
+                    align-items: center;
+
+
+
+                    a {
+                        font-size: 14px;
+                        color: #222222;
+                        line-height: 20px;
+                        margin-left: 30px;
+                        transition: .3;
+
+                        &:hover {
+                            color: #ff0d0d;
+                        }
+                    }
+                }
+                .red {
+                    color: #ff0d0d;
+                    font-weight: bold;
+                    font-size: 20px;
+                    line-height: 15px;
+                }
+                .redfrace {
+                    line-height: 20px;
+                    margin-top: 45px;
+                    font-size: 13px;
+                }
+
+            }
+        }
+    }
+}
+
+// страница прверки товара закрыта

@@ -1,0 +1,51 @@
+.footer {
+    min-height: 79px;
+    background-color: #e6e6e6;
+}
+
+
+.copy {
+    font-size: 16px;
+    color: #7a7a7a;
+    text-align: right;
+    letter-spacing: 0.03em;
+    line-height: 42px;
+}
+
+
+.social__btn {
+
+    a {
+        margin: 5px;
+        height: 32px;
+        width: 32px;
+        background: #fff;
+        justify-content: center;
+        align-items: center;
+        transition: .4s;
+
+        &:hover {
+            background: #f16d7f;
+
+            span {
+                color: #ffffff;
+            }
+        }
+
+        &:active,
+        &:focus {
+            background: #f16d7f;
+
+            span {
+                color: #ffffff;
+            }
+        }
+
+        span {
+            color: #b2b2b2;
+
+        }
+    }
+}
+
+// футер закрыт

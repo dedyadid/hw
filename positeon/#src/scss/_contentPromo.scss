@@ -1,0 +1,59 @@
+.section-2 {
+    background: #e8e8e8;
+    background: url(../img/header.jpg) center no-repeat, #e8e8e8;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    .promo {
+        min-height: 613px;
+        width: 100vw;
+    }
+}
+
+.title__promo {
+    position: absolute;
+    top: 224px;
+    left: 430px;
+    justify-items: center;
+    align-items: center;
+}
+
+.pinkblok {
+    height: 92px;
+    width: 12px;
+    background-color: #f16d7f;
+    margin-right: 10px;
+}
+
+.text__title {
+    flex-direction: column;
+
+    h2 {
+
+        font-size: 60px;
+        font-weight: 900;
+        color: #222222;
+        text-align: right;
+        letter-spacing: 0.03em;
+    }
+
+
+}
+
+.subtitl__promo {
+
+    font-size: 40px;
+    font-weight: 900;
+    color: #222222;
+    text-align: right;
+    letter-spacing: 0.03em;
+
+}
+
+.pinksubtitle {
+    margin-left: 10px;
+    color: #f16d7f;
+}
+
+// контент промо закрыт
